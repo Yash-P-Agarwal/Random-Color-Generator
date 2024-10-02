@@ -4,6 +4,7 @@ const getColor = () =>
     let randomCode = '#'+ randomNum.toString(16);
     document.body.style.background = randomCode;
     document.getElementById('colorcode').innerText = randomCode;
+    
 }
 
 
